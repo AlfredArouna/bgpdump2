@@ -33,7 +33,7 @@ extern int route_orig_size;
 
 extern int safi;
 extern int qaf;
-#define MAX_ADDR_LENGTH 16
+#define MAX_ADDR_LENGTH (long unsigned int)16
 
 #endif /*_BGPDUMP_H_*/
 

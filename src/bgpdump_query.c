@@ -29,6 +29,7 @@
 
 #include "bgpdump_route.h"
 #include "bgpdump_query.h"
+#include <string.h>
 
 #define QUERY_LIMIT_DEFAULT (1000 * 1000 * 1000)
 struct query *query_table;

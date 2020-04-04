@@ -33,6 +33,7 @@
 #include "bgpdump_option.h"
 #include "bgpdump_query.h"
 #include "bgpdump_route.h"
+#include <string.h>
 
 void
 ptree_list (struct ptree *ptree)

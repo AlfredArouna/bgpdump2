@@ -30,6 +30,7 @@
 #include "bgpdump_option.h"
 #include "bgpdump_route.h"
 #include "bgpdump_peer.h"
+#include <string.h>
 
 extern uint32_t timestamp;
 extern uint16_t peer_index;

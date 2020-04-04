@@ -41,10 +41,11 @@
 #include "bgpdump_route.h"
 
 #include "bgpdump_savefile.h"
-#include "bgpdump_query.h"
+//#include "bgpdump_query.h"
 #include "bgpdump_ptree.h"
 #include "bgpdump_peer.h"
 #include "bgpdump_peerstat.h"
+#include <string.h>
 
 extern int optind;
 

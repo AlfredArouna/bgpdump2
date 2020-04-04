@@ -233,7 +233,7 @@ peer_stat_show ()
           data = (uint64_t) n->data;
 
           if (verbose)
-            printf ("nexthop: %s/%d: count: %llu\n", buf, n->keylen, data);
+            printf ("nexthop: %s/%d: count: %lu\n", buf, n->keylen, data);
           count++;
         }
       printf ("Number of nexthops: %lu\n", (unsigned long) count);
@@ -251,7 +251,7 @@ peer_stat_show ()
           data = (uint64_t) n->data;
 
           if (verbose)
-            printf ("origin_as: %lu/%d: count: %llu\n", 
+            printf ("origin_as: %lu/%d: count: %lu\n", 
                     (unsigned long) val, n->keylen, data);
           count++;
         }
@@ -278,7 +278,7 @@ peer_stat_show ()
                   val = ntohl (*p);
                   printf ("%lu", (unsigned long) val);
                 }
-              printf ("]: count: %llu\n", data);
+              printf ("]: count: %lu\n", data);
             }
           count++;
         }
@@ -296,7 +296,7 @@ peer_stat_show ()
           data = (uint64_t) n->data;
 
           if (verbose)
-            printf ("as_path_len: %d/%d: count: %llu\n",
+            printf ("as_path_len: %d/%d: count: %lu\n",
                     (int) len, n->keylen, data);
           count++;
         }

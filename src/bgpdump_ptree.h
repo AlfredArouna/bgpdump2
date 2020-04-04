@@ -16,6 +16,8 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "bgpdump_query.h"
+
 void ptree_list (struct ptree *ptree);
 void ptree_query (struct ptree *ptree,
                   struct query *query_table, uint64_t query_size);

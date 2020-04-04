@@ -23,6 +23,7 @@
 #define ROUTE_PATH_LIMIT 128
 
 #include "bgpdump.h"
+#include <string.h>
 
 struct bgp_route
 {
